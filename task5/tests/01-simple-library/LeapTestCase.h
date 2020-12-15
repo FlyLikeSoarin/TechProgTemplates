@@ -7,8 +7,6 @@
 
 #include <gtest/gtest.h>
 
-class LeapTestCase : public ::testing::Test {
+class LeapTest: public ::testing::Test {
 
 };
-
-

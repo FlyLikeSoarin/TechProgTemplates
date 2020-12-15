@@ -3,8 +3,5 @@
 
 #include <gtest/gtest.h>
 
-class WeatherTestCase : public ::testing::Test {
+class WeatherTest: public ::testing::Test {
 };
-
-
-

@@ -8,7 +8,8 @@
 #include <gtest/gtest.h>
 #include <boost/filesystem/path.hpp>
 
-class TreeTestCase : public ::testing::Test {
+class TreeTest: public ::testing::Test {
+public:
+  void SetUp() override;
+  void TearDown() override;
 };
-
-
